@@ -1,0 +1,20 @@
+    .main {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #ffff;
+        box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, .09);
+    }
+    
+    .main div {
+        height: 50px;
+        width: 200px;
+        margin: 25px;
+        cursor: pointer;
+        font-size: 32px;
+    }
+    
+    .main div:hover {
+        color: rgb(43, 46, 226);
+    }
