@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import styles from '../../styles/topNews.module.css';
+import styles from '../../styles/TopNews.module.css';
 import { Header } from '../../components/header';
 
 export const topNews = ({ articles, pageNumber }) => {
