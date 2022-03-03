@@ -77,12 +77,12 @@ export const getServerSideProps = async pageContext => {
   }
 
   const apiResponse = await fetch(
-    `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&page=${pageNumber}`,
-    {
-      headers: {
-        Authorization: `Bearer ${process.env.NEXT_PUBLIC_NEWS_KEY}`,
-      },
-    },
+    `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&page=${pageNumber}&apiKey=218362b2a3ec40e1be515ad5a8d9519b`,
+    // {
+    //   headers: {
+    //     Authorization: `Bearer ${process.env.NEXT_PUBLIC_NEWS_KEY}`,
+    //   },
+    // },
   ).then(res => res.json());
 
   const { articles } = apiResponse;
