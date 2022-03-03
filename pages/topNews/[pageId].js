@@ -56,7 +56,7 @@ export const topNews = ({ articles, pageNumber }) => {
     </>
   ) : (
     <div className="page-container">
-      <Toolbar />
+      <Header />
       <div className={styles.main}>
         <h1>Oops! No articles for this page</h1>
       </div>
