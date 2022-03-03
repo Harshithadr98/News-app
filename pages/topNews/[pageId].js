@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import styles from '../../styles/TopNews.module.css';
 import { Header } from '../../components/header';
 
-export const topNews = ({ articles, pageNumber }) => {
+export const TopNews = ({ articles, pageNumber }) => {
   const router = useRouter();
   return articles.length ? (
     <>
@@ -95,4 +95,4 @@ export const getServerSideProps = async pageContext => {
   };
 };
 
-export default topNews;
+export default TopNews;
