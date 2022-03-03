@@ -14,9 +14,7 @@ export default function Home() {
           <h1>News all over the world</h1>
           <h3>Read the latest news on time all over the world.</h3>
         </div>
-        {/* <div className={styles.image}>
-          <img src="/news.jpg" />
-        </div> */}
+
       </div>
     </div>);
 
