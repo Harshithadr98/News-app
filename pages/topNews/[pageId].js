@@ -90,7 +90,7 @@ export const getServerSideProps = async pageContext => {
   return {
     props: {
       articles: articles,
-      pageNumber: Number.parseInt(pageNumber),
+      pageNumber: Number.parseInt (pageNumber),
     },
   };
 };
